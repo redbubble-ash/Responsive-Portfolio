@@ -365,7 +365,7 @@ li a:hover {
     }
     
     /* adjust nav bar to fit max-width: 980px */
-    @media (max-width: 980px) {
+    @media screen and (max-width: 980px) {
        nav {   
            width: fit-content;
             margin-left: 5%;
@@ -374,7 +374,7 @@ li a:hover {
     }
 
     /* adjust "JING XIE" to fit in the box for max-widh: 980px*/
-    @media (max-width: 980px) {
+    @media screen and (max-width: 980px) {
         .my_name{  
             width: fit-content; 
             height: fit-content;
@@ -383,7 +383,7 @@ li a:hover {
     }
     
     /* adjust the main section to fix max-width: 980px with margin-left:30% & margin right:5% */
-    @media (max-width: 980px) {
+    @media screen and (max-width: 980px) {
         .index #main_content{  
             width: fit-content; 
             height: fit-content;
@@ -394,7 +394,7 @@ li a:hover {
     }
    
     /* adjust footer to stay at the bottom */
-    @media (max-width: 980px) {
+    @media screen and (max-width: 980px) {
         .footer{  
             position: relative;
         }
@@ -402,7 +402,7 @@ li a:hover {
     
 
     /* adjust the main section to fix max-width: 768px with margin:5% */
-    @media (max-width: 768px) {
+    @media screen and (max-width: 768px) {
         .index #main_content{  
             width: fit-content; 
             height: fit-content;
@@ -412,7 +412,7 @@ li a:hover {
 
     
     /* adjust "JING XIE" to fit max-width: 640px, stack on the top of the page */
-    @media (max-width: 640px){
+    @media screen and (max-width: 640px){
       .my_name{  
             float: none;
             width: 100%;
@@ -424,7 +424,7 @@ li a:hover {
     
 
     /*adjust nav bar to fit max-width: 640px with no margin  */
-    @media (max-width: 640px) {
+    @media screen and (max-width: 640px) {
         nav {   
            margin: 0;
            width: 100%;
@@ -432,7 +432,7 @@ li a:hover {
     }
      
      /* adjust nav ul: "about, porfolio & contact" to fit max-width: 640px, no float stay central, underneath "JING XIE" */
-    @media (max-width: 640px) {
+    @media screen and (max-width: 640px) {
         nav ul{
           float: none;
           width: 100%;
@@ -440,7 +440,7 @@ li a:hover {
       }
      
     /* add background color for nav ul box, no margin, no float, no padding and text-align: center */
-      @media (max-width: 640px) {
+      @media screen and (max-width: 640px) {
         nav ul.header-right{
         display: inline-block;
         background-color: white;
@@ -453,7 +453,7 @@ li a:hover {
       
 
     /* adjust nav bar list with no float for max-width: 640px  */
-      @media (max-width: 640px) {
+      @media screen and (max-width: 640px) {
         nav ul li{
         float: none;
         }
@@ -461,7 +461,7 @@ li a:hover {
 
 
     /* adjust image to fit max-width: 640px, stack on the top of p */
-      @media (max-width: 640px){
+      @media screen and (max-width: 640px){
         .index img{  
               float: none;
               width: 100%;
@@ -476,7 +476,7 @@ li a:hover {
       
     
       /* adjust the main contact to fix max-width: 980px with margin-left:30% & margin right:5% */
-        @media (max-width: 980px) {
+        @media screen and (max-width: 980px) {
          .contact #contact_info{  
             width: -webkit-fill-available; 
             height: fit-content;
@@ -488,7 +488,7 @@ li a:hover {
 
 
         /* adjust the main contact to fix max-width: 768px with margin L& R 5% */
-        @media (max-width: 768px) {
+        @media screen and (max-width: 768px) {
             .contact #contact_info{  
             width: -webkit-fill-available; 
             height: fit-content;
@@ -499,7 +499,7 @@ li a:hover {
     }
 
         /* adjust main picture section to fit max-width: 980px  */
-        @media (max-width: 980px) {
+        @media screen and (max-width: 980px) {
         .portfolio #Portfolio_pix{  
                 width: -webkit-fill-available; 
                 height: -webkit-fill-available;
@@ -510,7 +510,7 @@ li a:hover {
         }
 
 
-        @media (max-width: 980px) {
+        @media screen and (max-width: 980px) {
             .portfolio #P3 h2{  
                     bottom: -235%;
     
@@ -518,7 +518,7 @@ li a:hover {
             }
 
         
-        @media (max-width: 980px) {
+        @media screen and (max-width: 980px) {
             .portfolio #P5 h2{  
                     bottom: -370%;
     
@@ -526,7 +526,7 @@ li a:hover {
             }
 
         /* adjust main picture section to fit max-width: 768px with margin L & R 5% */
-        @media (max-width: 768px) {
+        @media screen and (max-width: 768px) {
             .portfolio #Portfolio_pix{  
                     width: -webkit-fill-available; 
                     height: -webkit-fill-available;
@@ -536,28 +536,28 @@ li a:hover {
                 }
             }
 
-            @media (max-width: 640px) {
+            @media screen and (max-width: 640px) {
                 .portfolio #P5 h2{  
                         bottom: -640%;
         
                     }
                 }
 
-            @media (max-width: 640px) {
+            @media screen and (max-width: 640px) {
                 .portfolio #P4 h2{  
                         bottom: -505%;
         
                     }
                 }
 
-            @media (max-width: 640px) {
+            @media screen and (max-width: 640px) {
                 .portfolio #P3 h2{  
                         bottom: -370%;
         
                     }
                 }
 
-            @media (max-width: 640px) {
+            @media screen and (max-width: 640px) {
                 .portfolio #P2 h2{  
                         bottom: -235%;
         
@@ -565,7 +565,7 @@ li a:hover {
                 }
 
             /* adjust footer to stay at the bottom for max-width: 640px */
-            @media (max-width: 640px) {
+            @media screen and (max-width: 640px) {
                .portfolio .footer{  
                     bottom: -100%;
                     position: absolute;
